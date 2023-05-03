@@ -1,0 +1,7 @@
+Hoisting is JavaScript's default behavior of moving declarations to the top.
+
+A variable can be used before it has been declared.
+By using let and const keywords the block of code is aware of the variable, but it cannot be used until it has been declared.
+Using a let variable before it is declared will result in a ReferenceError.
+Using a const variable before it is declared, is a syntax error, so the code will simply not run.
+JavaScript only hoists declarations, not initializations.
